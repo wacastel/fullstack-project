@@ -16,16 +16,16 @@ my_fullstack_project/
 │   └── items.db              # SQLite database auto\-generated
 │
 └── django_client/            # Frontend Code
-├── manage.py             # Django entry point
-├── client_project/       # Main Django project settings
-└── items_app/            # Django app for item management
-├── views.py          # Relays requests to FastAPI
-├── urls.py           # App routing
-└── templates/        # HTML Templates
-└── items/
-├── list.html
-├── form.html
-└── confirm_delete.html
+    ├── manage.py             # Django entry point
+    ├── client_project/       # Main Django project settings
+    └── items_app/            # Django app for item management
+    ├── views.py              # Relays requests to FastAPI
+    ├── urls.py               # App routing
+    └── templates/            # HTML Templates
+    └── items/
+    ├── list.html
+    ├── form.html
+    └── confirm_delete.html
 ```
 
 ## 🛠️ Prerequisites
